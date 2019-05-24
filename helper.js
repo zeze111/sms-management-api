@@ -4,6 +4,6 @@ export const contactRules = {
 };
 
 export const textRules = {
-  message: 'required|alpha|min:1',
+  message: 'required|min:1',
   receiver: 'required|numeric|digits:9',
 };
